@@ -111,9 +111,9 @@ async function createTransaction(req,res) {
         });
         await debitLedgerEntry.save({ session });
 
-        await (()=>{
-            return new Promise((resolve)=>setTimeout(resolve,30*1000));
-        })()
+        // await (()=>{
+        //     return new Promise((resolve)=>setTimeout(resolve,30*1000));
+        // })()
 
 
         // * 7. Create CREDIT ledger entry
