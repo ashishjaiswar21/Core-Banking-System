@@ -1,21 +1,27 @@
 {
   "name": "core-banking-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A robust backend API for a core banking system built with Node.js, Express, and MongoDB.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "banking",
+    "api",
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Ashish Kumar",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
-    "cookieparser": "^0.1.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
