@@ -7,7 +7,7 @@
 
 A robust, production-ready backend REST API for a core banking system. Built with Node.js, Express, and MongoDB, this platform handles secure user authentication, ACID-compliant ledger transactions, and precise account balance management for a seamless financial experience.
 
-**🔗 Live API Base URL:** `[Your Render URL Will Go Here]`
+**🔗 Live API Base URL:** `[https://core-banking-system-wnpw.onrender.com/]`
 **📂 Project Repository:** [Core-Banking-System](https://github.com/ashishjaiswar21/Core-Banking-System)
 
 ---
